@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sprint]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Automation_Testcases.Launching_Application">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- Automation_Testcases.Launching_Application -->
+      <class name="Automation_Testcases.Filter_Functionality">
+        <methods>
+          <include name="testcase1"/>
+          <include name="testcase3"/>
+          <include name="testcase6"/>
+          <include name="testcase5"/>
+          <include name="testcase2"/>
+          <include name="testcase7"/>
+          <include name="testcase4"/>
+        </methods>
+      </class> <!-- Automation_Testcases.Filter_Functionality -->
+      <class name="Automation_Testcases.Menubar_Functionality">
+        <methods>
+          <include name="testcase5"/>
+          <include name="testcase1"/>
+          <include name="testcase3"/>
+          <include name="testcase4"/>
+          <include name="testcase2"/>
+        </methods>
+      </class> <!-- Automation_Testcases.Menubar_Functionality -->
+      <class name="Automation_Testcases.Login_Functionality">
+        <methods>
+          <include name="testcase1"/>
+          <include name="testcase2"/>
+          <include name="testcase7"/>
+          <include name="testcase5"/>
+          <include name="testcase6"/>
+          <include name="testcase3"/>
+          <include name="testcase4"/>
+        </methods>
+      </class> <!-- Automation_Testcases.Login_Functionality -->
+      <class name="Automation_Testcases.Checkout_Functionality">
+        <methods>
+          <include name="testcase3"/>
+          <include name="testcase4"/>
+          <include name="testcase1"/>
+          <include name="testcase2"/>
+          <include name="testcase7"/>
+          <include name="testcase8"/>
+          <include name="testcase5"/>
+          <include name="testcase6"/>
+        </methods>
+      </class> <!-- Automation_Testcases.Checkout_Functionality -->
+      <class name="Automation_Testcases.Addtocart_functionality">
+        <methods>
+          <include name="testcase5"/>
+          <include name="addtocart"/>
+          <include name="testcase6"/>
+          <include name="launchtheapplication"/>
+          <include name="testcase4"/>
+          <include name="testcase3"/>
+        </methods>
+      </class> <!-- Automation_Testcases.Addtocart_functionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Sprint] -->
